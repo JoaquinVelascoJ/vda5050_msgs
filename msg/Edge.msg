@@ -36,7 +36,7 @@ string direction                    # Sets direction at junctions for line-guide
 bool rotationAllowed                # “true”: rotation is allowed on the edge. “false”: rotation is not allowed on the edge.
                                     # Optional: Default to “false”. If this value is set, rotation is allowed on the edge.
 float64 maxRotationSpeed            # [rad/s] Maximum rotation speed Optional: No limit if not set
-vda5050_msgs/Trajectory trajectory  # Trajectory JSON-object for this edge as a NURBS. Defines the curve on which the 
+#vda5050_msgs/Trajectory trajectory  # Trajectory JSON-object for this edge as a NURBS. Defines the curve on which the 
                                     # AGV should move between startNode and endNode. Optional: Can be omitted if AGV 
                                     # cannot process trajectories or if AGV plans its own trajectory.
 float64 length                      # [m] Length of the path from startNode to endNode. Optional: This value is used

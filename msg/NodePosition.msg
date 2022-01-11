@@ -1,5 +1,7 @@
 # Defines the position on a map in world coordinates. Each floor has its own map.
 
+string nodeId 
+
 float64 x                                         # [m] X-position on the map in reference to the world coordinate system
 float64 y                                         # [m] Y-position on the map in reference to the world coordinate system
 

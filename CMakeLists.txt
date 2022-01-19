@@ -35,6 +35,7 @@ add_message_files(
     Order.msg
     OrderInformation.msg
     SafetyState.msg
+    State.msg
     Trajectory.msg
     Velocity.msg
     Visualization.msg

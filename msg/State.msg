@@ -28,11 +28,11 @@ bool driving                                         # True: indicates that the 
                                                      # movements of the AGV (e.g. lift movements) are not included here.
                                                      # False: indicates that the AGV is neither driving nor rotating
 
-#bool paused  #Optional                               # True: AGV is currently in a paused state, either because of the push of a physical button on the AGV or
+bool paused  #Optional                               # True: AGV is currently in a paused state, either because of the push of a physical button on the AGV or
                                                      # because of an instantAction. The AGV can resume the order.
                                                      # False: The AGV is currently not in a paused state
 
-#bool newBaseRequested   #Optional                    # True: AGV is almost at the end of the base and will reduce speed if no new base is transmitted. Trigger for MC to send ne base
+bool newBaseRequested   #Optional                    # True: AGV is almost at the end of the base and will reduce speed if no new base is transmitted. Trigger for MC to send ne base
                                                      # False: no base update required
 
 
@@ -51,7 +51,7 @@ vda5050_msgs/EdgeState[] edgeStates                  # Array of edgeStateObjects
 
 #vda5050_msgs/Velocity velocity #Optional             # AGV's velocity in vehicle coordinates
 
-vda5050_msgs/Trajectory trajectory                   # The trajectory is to be communicated as a NURBS and is defined in
+#vda5050_msgs/Trajectory trajectory                   # The trajectory is to be communicated as a NURBS and is defined in
                                                      # chapter 5.1. Optional: AGVs that plan their own path are to
                                                      # communicate their path via a trajectory object.
 

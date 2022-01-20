@@ -32,7 +32,7 @@ bool paused  #Optional                               # True: AGV is currently in
                                                      # because of an instantAction. The AGV can resume the order.
                                                      # False: The AGV is currently not in a paused state
 
-bool newBaseRequested   #Optional                    # True: AGV is almost at the end of the base and will reduce speed if no new base is transmitted. Trigger for MC to send ne base
+#bool newBaseRequested   #Optional                    # True: AGV is almost at the end of the base and will reduce speed if no new base is transmitted. Trigger for MC to send ne base
                                                      # False: no base update required
 
 
